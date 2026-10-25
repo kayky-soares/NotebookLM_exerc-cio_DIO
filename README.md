@@ -1,41 +1,60 @@
-# Segundo Cérebro: Estatística Descritiva
+# Segundo Cérebro com NotebookLM — Desafio DIO
 
-Projeto desenvolvido para uma atividade da [DIO](https://www.dio.me/) com o objetivo de documentar o uso do NotebookLM como apoio aos estudos de Estatística Descritiva.
+## Sobre o projeto
 
-## Tema e objetivo
+Este projeto foi desenvolvido como parte de um desafio da [DIO](https://www.dio.me/), com o objetivo de explorar o conceito de **segundo cérebro utilizando inteligência artificial generativa**, por meio do NotebookLM.
 
-**Tema:** Estudando Estatística Descritiva.
+A proposta consiste em organizar fontes de informação, interagir com a IA para sintetizar conteúdos, consultar informações com base nos materiais fornecidos e documentar os resultados obtidos.
 
-**Objetivo:** utilizar materiais de estudo em PDF para revisar conceitos, compreender fórmulas estatísticas e praticar a resolução de exercícios com apoio do NotebookLM, consultando as fontes utilizadas nas respostas.
+Para colocar a proposta em prática, escolhi **Estatística Descritiva** como tema de experimentação, pois já possuía materiais e interações anteriores com o NotebookLM. Portanto, o conteúdo de Estatística Descritiva é o contexto utilizado para demonstrar a ferramenta, e não o objetivo principal do desafio.
 
+## Objetivo
+
+Demonstrar, na prática, como o NotebookLM pode ser utilizado como uma ferramenta de apoio à organização e à consulta de conhecimento, reunindo fontes, perguntas, respostas e evidências em um repositório documentado.
 
 ## Ferramenta utilizada
 
-- **NotebookLM:** utilizado para resumir os PDFs, explicar conceitos e fórmulas e auxiliar na resolução dos exercícios presentes nos materiais.
+- **NotebookLM:** ferramenta utilizada para consultar os materiais enviados, produzir resumos, explicar conceitos e fórmulas, auxiliar na resolução de exercícios e identificar as fontes relacionadas às respostas.
+
+## Tema utilizado na experimentação
+
+**Estudando Estatística Descritiva.**
+
+Esse tema foi escolhido livremente para demonstrar o uso da ferramenta, aproveitando materiais acadêmicos que já estavam disponíveis.
+
+A frase acima foi definida durante a documentação do projeto, pois não havia sido registrada uma frase inicial no começo da atividade.
 
 ## Fontes utilizadas
 
-Foram adicionados ao NotebookLM quatro PDFs relacionados ao conteúdo de Estatística Descritiva estudado na faculdade.
+Foram utilizados quatro arquivos PDF relacionados ao conteúdo de Estatística Descritiva.
 
-| Arquivo | Conteúdo abordado | Origem e confiabilidade |
-|---|---|---|
-| `estatistica_aula2.pdf` | Medidas de tendência central: média, moda e mediana; propriedades das medidas; somatório e produtório. | Material didático utilizado no estudo da disciplina. A captura do NotebookLM identifica o professor Mario Nobuyuki Nakashima para este arquivo. |
-| `estatistica_aula3.pdf` | Exercícios sobre medidas de tendência central e questões contextualizadas, incluindo questões de exame. | Material didático utilizado no estudo da disciplina. A descrição foi identificada na resposta do NotebookLM; os dados de autoria devem ser conferidos no próprio PDF. |
-| `estatistica_4.pdf` | Moda para dados agrupados em classes e medidas de dispersão, como variância, desvio padrão e coeficiente de variação. | Material didático utilizado no estudo da disciplina. Os dados de autoria devem ser conferidos no próprio PDF. |
-| `estatistica_5.pdf` | Medidas separatrizes: quartis, decis e percentis; posições em distribuições ordenadas. | Material didático utilizado no estudo da disciplina. Os dados de autoria devem ser conferidos no próprio PDF. |
+| Arquivo | Conteúdo abordado |
+|---|---|
+| `estatistica_aula2.pdf` | Medidas de tendência central: média, moda e mediana; propriedades das medidas; somatório e produtório. |
+| `estatistica_aula3.pdf` | Exercícios sobre medidas de tendência central e questões contextualizadas. |
+| `estatistica_4.pdf` | Moda para dados agrupados em classes e medidas de dispersão, como variância, desvio padrão e coeficiente de variação. |
+| `estatistica_5.pdf` | Medidas separatrizes, incluindo quartis, decis e percentis. |
 
-**Por que utilizar essas fontes:** os documentos foram selecionados por estarem diretamente relacionados ao conteúdo de Estatística Descritiva estudado na faculdade. A origem acadêmica, a autoria e a instituição responsável devem ser verificadas nas capas ou páginas iniciais dos PDFs antes da publicação final.
+### Por que essas fontes foram escolhidas?
 
-## Diretriz de comportamento do NotebookLM
+Os PDFs foram selecionados por já estarem disponíveis e apresentarem conteúdo organizado, adequado para testar as funcionalidades do NotebookLM.
 
-A ferramenta foi orientada a:
+Por serem materiais didáticos relacionados à disciplina estudada, serviram como base para observar como a ferramenta resume documentos, explica conceitos e auxilia na resolução de exercícios.
 
-1. Fazer um resumo de cada PDF, explicando os temas e as fórmulas apresentadas.
-2. Ajudar a resolver e corrigir os exercícios que aparecem nos documentos.
+A autoria e a origem institucional devem ser verificadas nos próprios documentos. As respostas da IA não foram tratadas como fontes independentes: os materiais enviados constituíram a base documental da experimentação.
 
-A intenção foi usar os próprios materiais como base para revisar a matéria e acompanhar o desenvolvimento dos cálculos.
+## Diretrizes utilizadas com o NotebookLM
 
-## Perguntas feitas e respostas obtidas
+Durante a interação, a ferramenta foi orientada a:
+
+1. Resumir os conteúdos dos PDFs, identificando os principais temas.
+2. Explicar os conceitos e apresentar as fórmulas relacionadas aos assuntos abordados.
+3. Ajudar na resolução dos exercícios presentes nos materiais.
+4. Utilizar os documentos fornecidos como referência para as respostas, permitindo consultar as fontes indicadas pelo NotebookLM.
+
+Essas instruções permitiram explorar diferentes formas de interação com os documentos e registrar os resultados no repositório.
+
+## Perguntas realizadas e resultados obtidos
 
 ### 1. Resumo dos PDFs
 
@@ -43,16 +62,11 @@ A intenção foi usar os próprios materiais como base para revisar a matéria e
 
 > Quero que você faça um resumo sobre os temas dos PDFs que mandei, indo da estatistica_aula2 até estatistica_5.
 
-**Resumo da resposta:**
+**Resultado:**
 
-O NotebookLM organizou os conteúdos por arquivo:
+O NotebookLM organizou os conteúdos dos documentos por assunto, identificando medidas de tendência central, exercícios de fixação, medidas de dispersão e medidas separatrizes.
 
-- **Estatística Aula 2:** medidas de tendência central, propriedades e comparação entre média, moda e mediana, além de somatório e produtório.
-- **Estatística Aula 3:** exercícios de fixação sobre medidas de tendência central e questões contextualizadas.
-- **Estatística 4:** métodos de cálculo da moda em classes e medidas de dispersão, incluindo variância, desvio padrão e coeficiente de variação.
-- **Estatística 5:** medidas separatrizes, como quartis, decis e percentis.
-
-**Fontes consultadas:** `estatistica_aula2.pdf`, `estatistica_aula3.pdf`, `estatistica_4.pdf` e `estatistica_5.pdf`, conforme a organização apresentada pelo NotebookLM. As citações individuais devem ser conferidas nas capturas de tela incluídas na pasta `evidencias/`.
+**Fontes utilizadas:** `estatistica_aula2.pdf`, `estatistica_aula3.pdf`, `estatistica_4.pdf` e `estatistica_5.pdf`, conforme a organização apresentada na resposta. As citações individuais podem ser verificadas nas evidências registradas no repositório.
 
 ### 2. Explicação de conceitos e fórmulas
 
@@ -60,9 +74,11 @@ O NotebookLM organizou os conteúdos por arquivo:
 
 > Agora me explique sobre os temas, mostrando fórmulas.
 
-**Resumo da resposta:**
+**Resultado:**
 
-O NotebookLM explicou medidas de tendência central e apresentou fórmulas, incluindo:
+A ferramenta explicou conceitos estatísticos e apresentou fórmulas, incluindo média aritmética simples, média ponderada e mediana para dados agrupados em intervalos de classe.
+
+Exemplos das fórmulas registradas na resposta:
 
 **Média aritmética simples**
 
@@ -83,9 +99,9 @@ Md=L_{\mathrm{inf}}+
 \left(\frac{E_m-FAC_{\mathrm{ant}}}{f_{\mathrm{md}}}\right)h
 \]
 
-A resposta também abordou moda para dados agrupados em classes e propriedades da média. As fórmulas acima são exemplos presentes na resposta registrada; para comprovar a correspondência exata entre cada explicação e a fonte, consulte as citações exibidas no NotebookLM e os respectivos prints.
+A resposta também abordou a moda para dados agrupados em classes e propriedades da média.
 
-**Fontes:** a associação precisa entre cada fórmula e o PDF citado deve ser conferida nas citações originais do NotebookLM.
+**Fontes:** os PDFs enviados ao NotebookLM. A correspondência entre cada explicação e sua fonte deve ser conferida nas citações originais e nas capturas de tela.
 
 ### 3. Resolução dos exercícios da Aula 2
 
@@ -93,9 +109,15 @@ A resposta também abordou moda para dados agrupados em classes e propriedades d
 
 > Quero fazer os exercícios dos slides de estatistica_aula2.
 
-**Exercício 1 — Atendimento bancário**
+**Resultado:**
 
-O enunciado informa que o gerente atendeu 19, 15, 17 e 21 clientes nos quatro primeiros dias. A média dos cinco dias foi de 19 clientes. Para encontrar o número de atendimentos do quinto dia:
+A ferramenta auxiliou na resolução de exercícios presentes no material, incluindo problemas envolvendo média, mediana e distribuição de frequências.
+
+**Exemplo — Atendimento bancário**
+
+O enunciado informa que foram atendidos 19, 15, 17 e 21 clientes nos quatro primeiros dias, com média de 19 atendimentos ao longo de cinco dias.
+
+Para calcular o número de atendimentos do quinto dia:
 
 \[
 \frac{19+15+17+21+n}{5}=19
@@ -105,21 +127,17 @@ O enunciado informa que o gerente atendeu 19, 15, 17 e 21 clientes nos quatro pr
 72+n=95 \Rightarrow n=23
 \]
 
-Ordenando os valores, temos \(15, 17, 19, 21, 23\). Como há cinco observações, a mediana é o terceiro valor.
+Os valores ordenados são \(15,17,19,21,23\), resultando em mediana igual a 19.
 
-**Resultado informado pelo NotebookLM:** mediana de 19 clientes.
+**Outro exemplo — Idades de policiais**
 
-**Exercício 2 — Idades de policiais**
+Na distribuição apresentada no exercício, a resposta registrada pelo NotebookLM informou:
 
-O exercício apresenta uma distribuição de frequências para as idades de 85 policiais.
-
-- **Moda:** 30 anos, a idade com maior frequência.
 - **Média:** 31 anos.
-- **Mediana:** 30 anos, pois a observação central está na idade de 30 anos.
+- **Moda:** 30 anos.
+- **Mediana:** 30 anos.
 
-**Resultados informados pelo NotebookLM:** média de 31 anos, moda de 30 anos e mediana de 30 anos.
-
-**Fonte indicada pelo material:** `estatistica_aula2.pdf`. A captura original com as citações deve ser incluída em `evidencias/` para permitir conferir a fonte indicada pelo NotebookLM.
+**Fonte indicada:** `estatistica_aula2.pdf`. Os resultados devem ser conferidos no material original e nas evidências das respostas.
 
 ### 4. Resolução dos exercícios da Aula 3
 
@@ -127,22 +145,21 @@ O exercício apresenta uma distribuição de frequências para as idades de 85 p
 
 > Agora faça os exercícios do estatística aula 3.
 
-**Resumo da resposta:**
+**Resultado:**
 
-O NotebookLM apresentou uma resolução dividida em duas partes: exercícios gerais e questões contextualizadas, incluindo questões do ENEM. A captura de tela registra, por exemplo, um exercício sobre remunerações de empresas, no qual a resposta calcula a média e discute o efeito de um valor extremo (*outlier*).
+O NotebookLM apresentou resoluções de exercícios gerais e questões contextualizadas. Entre os exemplos registrados estava um problema sobre remunerações em empresas, envolvendo o cálculo da média e a influência de um valor extremo (*outlier*).
 
-**Fonte:** `estatistica_aula3.pdf`, conforme indicado na resposta do NotebookLM. Os enunciados, resultados completos e citações devem ser conferidos no PDF e nas capturas originais.
+**Fonte indicada:** `estatistica_aula3.pdf`, conforme a resposta registrada pelo NotebookLM. As capturas de tela documentam a interação e permitem consultar as citações originais.
 
 ## Notebook compartilhado
 
-**Link informado para o NotebookLM:**  
-[Estudar Estatística Descritiva no NotebookLM](https://notebook.google.com/notebook/7862cee7-79fe-4cff-8f4b-979a85610c39)
+O notebook utilizado durante a experimentação pode ser acessado pelo link abaixo:
 
-O acesso deve ser testado em uma janela anônima do navegador para confirmar que o avaliador consegue abrir o notebook sem depender da sessão da conta proprietária.
+[**Abrir o notebook no NotebookLM**](https://notebook.google.com/notebook/7862cee7-79fe-4cff-8f4b-979a85610c39)
+
+O acesso deve ser testado em uma janela anônima para verificar se o compartilhamento permite que outras pessoas consultem o notebook.
 
 ## Estrutura do repositório
-
-A estrutura sugerida para este repositório é:
 
 ```text
 segundo-cerebro-estatistica-descritiva/
@@ -161,21 +178,25 @@ segundo-cerebro-estatistica-descritiva/
     └── exercicios-aula3.png
 ```
 
-Os nomes das imagens são sugestões. Ao enviar os arquivos, utilize os nomes reais ou ajuste os caminhos deste README para que todos os links apontem para arquivos existentes.
+Os nomes apresentados são exemplos de organização. Os caminhos devem corresponder aos nomes reais dos arquivos publicados no repositório.
 
-## Evidências
+## Evidências documentadas
 
-As capturas de tela devem demonstrar:
+A pasta `evidencias/` reúne capturas de tela das interações com o NotebookLM, incluindo:
 
-- o resumo gerado a partir dos quatro PDFs;
-- a explicação dos conceitos e fórmulas;
-- as respostas aos exercícios;
-- as citações do NotebookLM que permitem identificar as fontes utilizadas.
+- resumo dos documentos enviados;
+- explicações de conceitos e fórmulas;
+- resolução de exercícios;
+- citações que permitem identificar as fontes utilizadas nas respostas.
 
-As citações são importantes para verificar se as respostas estão fundamentadas nos materiais selecionados, em vez de apenas apresentar respostas sem rastreabilidade.
+A pasta `imagens/` contém o mapa mental utilizado como material complementar, enquanto a pasta `fontes/` reúne os documentos empregados na experimentação.
+
+Esses registros permitem acompanhar o processo e verificar a relação entre as perguntas realizadas, as respostas obtidas e os materiais consultados.
 
 ## Considerações finais
 
-Este projeto registra o uso do NotebookLM como ferramenta de apoio aos estudos de Estatística Descritiva. A atividade envolveu a organização de materiais de estudo, a síntese dos conceitos, a explicação de fórmulas e a resolução de exercícios.
+O projeto permitiu explorar o NotebookLM como ferramenta de organização e consulta de conhecimento, utilizando documentos fornecidos pelo usuário como base para resumir informações, explicar conceitos e responder a perguntas.
 
-A documentação das fontes e das evidências permite revisar as respostas e verificar sua relação com os documentos consultados. O projeto poderá ser ampliado com novos exercícios, materiais e registros de uso da ferramenta.
+A organização das fontes, o registro das interações e a documentação das evidências demonstram uma aplicação prática do conceito de segundo cérebro com IA generativa.
+
+Embora Estatística Descritiva tenha sido o tema escolhido para a experimentação, a proposta central do projeto é documentar o processo de utilização da ferramenta e a organização do conhecimento com apoio da inteligência artificial.
