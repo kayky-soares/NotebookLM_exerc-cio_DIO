@@ -8,7 +8,6 @@ Projeto desenvolvido para uma atividade da [DIO](https://www.dio.me/) com o obje
 
 **Objetivo:** utilizar materiais de estudo em PDF para revisar conceitos, compreender fórmulas estatísticas e praticar a resolução de exercícios com apoio do NotebookLM, consultando as fontes utilizadas nas respostas.
 
-> Observação: a frase acima foi definida para documentar o projeto, pois não foi registrada uma frase inicial durante a aula.
 
 ## Ferramenta utilizada
 
